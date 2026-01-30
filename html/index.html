@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Akan Name Generator</title>
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Akan Name Generator</h1>
+        <p>
+            This application calculates the day of the week you were born
+            and gives you your Akan name based on your gender.
+        </p>
+    </header>
+
+    <!-- Form Section -->
+    <main>
+        <form id="akanForm">
+
+            <h2>Enter Your Birth Details</h2>
+
+            <!-- Day -->
+            <label for="day">Day of Birth:</label>
+            <input type="number" id="day" placeholder="DD" required>
+
+            <!-- Month -->
+            <label for="month">Month of Birth:</label>
+            <input type="number" id="month" placeholder="MM" required>
+
+            <!-- Year -->
+            <label for="year">Year of Birth:</label>
+            <input type="number" id="year" placeholder="YYYY" required>
+
+            <!-- Gender -->
+            <p>Select Gender:</p>
+
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+
+            <!-- Submit Button -->
+            <button type="submit">Get Akan Name</button>
+
+        </form>
+
+        <!-- Result Section -->
+        <section id="result">
+            <!-- Akan name will be displayed here -->
+        </section>
+    </main>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
