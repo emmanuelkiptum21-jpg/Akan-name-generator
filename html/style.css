@@ -39,3 +39,7 @@ h2{
      font-size: x-large;
      font-weight: bold;
 }
+label{
+    display: block;
+    margin-top: 20px;
+}
