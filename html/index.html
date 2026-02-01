@@ -26,32 +26,34 @@
 
                 <h2>Enter Your Birth Details</h2>
 
-                <label for="Date">Date of Birth:</label>
-                <input type="date" id="birthdate" required>
+                <form id="akanForm">
+                    <label for="day">Day</label>
+                    <input type="number" id="day" placeholder="DD">
+
+                    <label for="month">Month</label>
+                    <input type="number" id="month" placeholder="MM">
+
+                    <label for="year">Year</label>
+                    <input type="number" id="year" placeholder="YYYY">
+
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="">-- Select Gender --</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
 
 
-                <p>Select Gender:</p>
-                <div class="gender">
-                    <label>
-                        <input type="radio" name="gender" value="male">
-                        Male
-                    </label>
 
-                    <label>
-                        <input type="radio" name="gender" value="female">
-                        Female
-                    </label>
-                </div>
+                    <button type="submit">Get Akan Name</button>
 
-                <button type="submit">Get Akan Name</button>
-
-            </form>
+                </form>
 
 
-            <section id="result">
-                <!-- Akan name will be displayed here -->
-            </section>
-            <script src="./script.js"></script>
+                <section id="result">
+                    <!-- Akan name will be displayed here -->
+                </section>
+                <script src="./script.js"></script>
         </section>
 
 </body>
