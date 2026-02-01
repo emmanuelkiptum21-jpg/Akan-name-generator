@@ -11,48 +11,48 @@
 
 <body>
 
-
-    <header>
-        <h1>Akan Name Generator</h1>
-        <p>
-            This application calculates the day of the week you were born
-            and gives you your Akan name based on your gender.
-        </p>
-    </header>
-
-
-    <section class="main">
-        <form id="akanForm">
-
-            <h2>Enter Your Birth Details</h2>
+    <section class="container">
+        <header>
+            <h1>Akan Name Generator</h1>
+            <p>
+                This application calculates the day of the week you were born
+                and gives you your Akan name based on your gender.
+            </p>
+        </header>
 
 
-            <label for="date">Date of Birth:</label>
-            <input type="date" id="day" placeholder="DOF" required>
+        <section class="main">
+            <form id="akanForm">
+
+                <h2>Enter Your Birth Details</h2>
+
+                <label for="Date">Date of Birth:</label>
+                <input type="date" id="Date" required>
 
 
-            <p>Select Gender:</p>
+                <p>Select Gender:</p>
 
-            <label>
-                <input type="radio" name="gender" value="male">
-                Male
-            </label>
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
 
-            <label>
-                <input type="radio" name="gender" value="female">
-                Female
-            </label>
-
-
-            <button type="submit">Get Akan Name</button>
-
-        </form>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
 
 
-        <section id="result">
-            <!-- Akan name will be displayed here -->
+                <button type="submit">Get Akan Name</button>
+
+            </form>
+
+
+            <section id="result">
+                <!-- Akan name will be displayed here -->
+            </section>
+            <script src="./script.js"></script>
         </section>
-        <script src="./script.js"></script>
 
 </body>
 
