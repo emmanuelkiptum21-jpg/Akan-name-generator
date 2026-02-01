@@ -60,3 +60,15 @@ button:hover{
     background-color:  rgba(2, 111, 2, 0.338);;
    
 }
+
+#result {
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: center;
+  color:  rgb(222, 250, 216);;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
