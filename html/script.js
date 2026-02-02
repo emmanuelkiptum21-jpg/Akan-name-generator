@@ -30,7 +30,7 @@ document.getElementById("akanForm").addEventListener("submit", function (event) 
       DD
     ) % 7;
 
-  d = (d + 7) % 7; // ensure positive
+    
 
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
